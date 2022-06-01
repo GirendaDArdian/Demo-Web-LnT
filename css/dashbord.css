@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #0054A5;
+
+}
+/* bagian kanan */
+.bg-kanan{
+    width: 50%;
+    background-color: #0054A5;
+    text-align: center;
+    margin-left: 627px;
+    height: 695px;
+}
+
+#gambar-1{
+    margin-top: 60px;
+}
+
+#gambar-2{
+    margin-top: 80px;
+}
+
+#tagline{
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+span{
+    margin-top: 20px;
+}
+/* bagian kiri */
+
+.bg-kiri{
+    margin-top: -600px;
+    width: 50%;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0054A5;
+}
+
+a::after{
+    color: #fff;
+}
+
+#welcome{
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
